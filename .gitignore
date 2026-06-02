@@ -1,0 +1,12 @@
+# Carpetas de compilación
+[Bb]in/
+[Oo]bj/
+
+# Librerías de cliente
+wwwroot/lib/
+
+# Archivos de Visual Studio
+.vs/
+*.user
+*.suo
+*.db
