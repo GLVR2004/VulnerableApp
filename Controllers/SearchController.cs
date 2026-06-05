@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using VulnerableApp.Data;
 using VulnerableApp.Models;
+using System.Linq;
 
 namespace VulnerableApp.Controllers
 {
@@ -21,12 +21,11 @@ namespace VulnerableApp.Controllers
                 return View(new List<User>());
             }
 
-            string query = "SELECT * FROM Users WHERE Username LIKE '%" + search + "%'";
-            
-            var users = _db.Users.FromSqlRaw(query).ToList();
+            var users = _db.Users
+                           .Where(u => u.Username != null && u.Username.Contains(search))
+                           .ToList();
             
             return View(users);
         }
     }
 }
-    
