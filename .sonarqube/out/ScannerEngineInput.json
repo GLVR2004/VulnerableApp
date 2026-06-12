@@ -1,0 +1,108 @@
+{
+  "scannerProperties": [
+    {
+      "key": "sonar.scanner.app",
+      "value": "ScannerMSBuild"
+    },
+    {
+      "key": "sonar.scanner.appVersion",
+      "value": "11.2.1"
+    },
+    {
+      "key": "sonar.scanner.bootstrapStartTime",
+      "value": "1781304142000"
+    },
+    {
+      "key": "sonar.projectKey",
+      "value": "MiAppNetCore"
+    },
+    {
+      "key": "sonar.working.directory",
+      "value": "C:\\Users\\Huesos\\Documents\\VulnerableApp\\.sonarqube\\out\\.sonar"
+    },
+    {
+      "key": "sonar.projectBaseDir",
+      "value": "C:\\Users\\Huesos\\Documents\\VulnerableApp"
+    },
+    {
+      "key": "sonar.pullrequest.cache.basepath",
+      "value": "C:\\Users\\Huesos\\Documents\\VulnerableApp"
+    },
+    {
+      "key": "sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "sonar.modules",
+      "value": "531FF11C-72BE-4CAA-90E3-F946B224E40A"
+    },
+    {
+      "key": "531FF11C-72BE-4CAA-90E3-F946B224E40A.sonar.projectKey",
+      "value": "MiAppNetCore:531FF11C-72BE-4CAA-90E3-F946B224E40A"
+    },
+    {
+      "key": "531FF11C-72BE-4CAA-90E3-F946B224E40A.sonar.projectName",
+      "value": "VulnerableApp"
+    },
+    {
+      "key": "531FF11C-72BE-4CAA-90E3-F946B224E40A.sonar.projectBaseDir",
+      "value": "C:\\Users\\Huesos\\Documents\\VulnerableApp"
+    },
+    {
+      "key": "531FF11C-72BE-4CAA-90E3-F946B224E40A.sonar.working.directory",
+      "value": "C:\\Users\\Huesos\\Documents\\VulnerableApp\\.sonarqube\\out\\.sonar\\mod0"
+    },
+    {
+      "key": "531FF11C-72BE-4CAA-90E3-F946B224E40A.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "531FF11C-72BE-4CAA-90E3-F946B224E40A.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "531FF11C-72BE-4CAA-90E3-F946B224E40A.sonar.sources",
+      "value": "C:\\Users\\Huesos\\Documents\\VulnerableApp\\Controllers\\ApiController.cs,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Controllers\\AuthController.cs,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Controllers\\CommentController.cs,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Controllers\\HomeController.cs,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Controllers\\SearchController.cs,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Data\\AppDbContext.cs,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Data\\AppDbContextFactory.cs,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Migrations\\20260602013206_InitialCreate.cs,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Migrations\\20260602013206_InitialCreate.Designer.cs,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Migrations\\20260605220824_UpdateUserPasswordHash.cs,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Migrations\\20260605220824_UpdateUserPasswordHash.Designer.cs,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Migrations\\AppDbContextModelSnapshot.cs,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Models\\ErrorViewModel.cs,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Models\\User.cs,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Program.cs,C:\\Users\\Huesos\\Documents\\VulnerableApp\\obj\\Debug\\net10.0\\VulnerableApp.GlobalUsings.g.cs,\"C:\\Users\\Huesos\\Documents\\VulnerableApp\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs\",C:\\Users\\Huesos\\Documents\\VulnerableApp\\obj\\Debug\\net10.0\\VulnerableApp.AssemblyInfo.cs,C:\\Users\\Huesos\\Documents\\VulnerableApp\\obj\\Debug\\net10.0\\VulnerableApp.RazorAssemblyInfo.cs,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\css\\site.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\favicon.ico,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\js\\site.js,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\bootstrap\\LICENSE,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\jquery\\dist\\jquery.js,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map,C:\\Users\\Huesos\\Documents\\VulnerableApp\\wwwroot\\lib\\jquery\\LICENSE.txt,C:\\Users\\Huesos\\Documents\\VulnerableApp\\appsettings.Development.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\appsettings.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Views\\Auth\\Dashboard.cshtml,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Views\\Auth\\Login.cshtml,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Views\\Comment\\Index.cshtml,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Views\\Home\\Index.cshtml,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Views\\Home\\Privacy.cshtml,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Views\\Search\\Index.cshtml,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Views\\Shared\\Error.cshtml,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Views\\Shared\\_Layout.cshtml,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Views\\_ViewImports.cshtml,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Views\\_ViewStart.cshtml,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Views\\Shared\\_Layout.cshtml.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\.gitignore,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2A\\Captura de pantalla 2026-06-02 133840.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2A\\Compilacion.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2A\\Inicio.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2B\\error.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2B\\search.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2B\\search_1.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2C\\dashboard.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2C\\error login.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2C\\login.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2D\\alerta.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2D\\codigo no confiable.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2D\\codigo vulnerable.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2D\\funcionamiento correcto.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2E\\codigo.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2E\\get_user1.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2E\\get_user2.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2E\\get_users.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2F\\apicontroller correccion.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2F\\codigo user.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2F\\comment correccion.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2F\\Correccion de AppDbContext.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2F\\correccion de busqueda.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2F\\correcion de comentarios.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2F\\denegacion de usuarios.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\evidencias\\P2F\\searchcontroller correccion.png,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Práctica 2 - Parte 2.pdf,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Reporte_Final_VulnerableApp.pdf,C:\\Users\\Huesos\\Documents\\VulnerableApp\\Properties\\launchSettings.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\obj\\project.assets.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\obj\\VulnerableApp.csproj.nuget.dgspec.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\bin\\Debug\\net10.0\\appsettings.Development.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\bin\\Debug\\net10.0\\appsettings.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\bin\\Debug\\net10.0\\VulnerableApp.deps.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\bin\\Debug\\net10.0\\VulnerableApp.runtimeconfig.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\bin\\Debug\\net10.0\\VulnerableApp.staticwebassets.endpoints.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\bin\\Debug\\net10.0\\VulnerableApp.staticwebassets.runtime.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\obj\\Debug\\net10.0\\rbcswa.dswa.cache.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\obj\\Debug\\net10.0\\rjimswa.dswa.cache.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\obj\\Debug\\net10.0\\rjsmcshtml.dswa.cache.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\obj\\Debug\\net10.0\\rjsmrazor.dswa.cache.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\obj\\Debug\\net10.0\\rpswa.dswa.cache.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\obj\\Debug\\net10.0\\staticwebassets.build.endpoints.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\obj\\Debug\\net10.0\\staticwebassets.build.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\obj\\Debug\\net10.0\\staticwebassets.development.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\obj\\Debug\\net10.0\\VulnerableApp.sourcelink.json,C:\\Users\\Huesos\\Documents\\VulnerableApp\\obj\\Debug\\net10.0\\scopedcss\\bundle\\VulnerableApp.styles.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\obj\\Debug\\net10.0\\scopedcss\\projectbundle\\VulnerableApp.bundle.scp.css,C:\\Users\\Huesos\\Documents\\VulnerableApp\\obj\\Debug\\net10.0\\scopedcss\\Views\\Shared\\_Layout.cshtml.rz.scp.css"
+    },
+    {
+      "key": "531FF11C-72BE-4CAA-90E3-F946B224E40A.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\Huesos\\Documents\\VulnerableApp\\.sonarqube\\out\\0"
+    },
+    {
+      "key": "531FF11C-72BE-4CAA-90E3-F946B224E40A.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\Huesos\\Documents\\VulnerableApp\\.sonarqube\\out\\0\\Issues.json"
+    },
+    {
+      "key": "531FF11C-72BE-4CAA-90E3-F946B224E40A.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\Huesos\\Documents\\VulnerableApp\\.sonarqube\\out\\0\\Telemetry.json"
+    },
+    {
+      "key": "sonar.token",
+      "value": "***"
+    },
+    {
+      "key": "sonar.host.url",
+      "value": "http://localhost:9000"
+    },
+    {
+      "key": "sonar.cs.opencover.reportsPaths",
+      "value": "C:/Program Files/Git/coverage.opencover.xml"
+    },
+    {
+      "key": "sonar.cs.vstest.reportsPaths",
+      "value": "/*.trx"
+    },
+    {
+      "key": "sonar.exclusions",
+      "value": "C:/Program Files/Git/coverage.opencover.xml"
+    },
+    {
+      "key": "sonar.visualstudio.enable",
+      "value": "false"
+    }
+  ]
+}

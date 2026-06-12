@@ -23,9 +23,9 @@ namespace VulnerableApp.Controllers
         [HttpPost]
         public IActionResult Login(string username, string password)
         {
-            // VULNERABILIDAD: SQL Injection por concatenación
-            string query = $"SELECT * FROM Users WHERE Username = '{username}' AND Password = '{password}'";
-            var user = _db.Users.FromSqlRaw(query).FirstOrDefault();
+            var user = _db.Users
+                .FromSqlRaw("SELECT * FROM Users WHERE Username = {0} AND Password = {1}", username, password)
+                .FirstOrDefault();
 
             if (user != null)
             {
