@@ -29,7 +29,7 @@ Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Information()
     .WriteTo.Console()
     .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day)
-    .WriteTo.Seq("http://localhost:5018")
+    .WriteTo.Seq("http://localhost:5341")
     .CreateLogger();
 
 builder.Host.UseSerilog();

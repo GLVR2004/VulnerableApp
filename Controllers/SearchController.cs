@@ -1,9 +1,7 @@
+using System.Diagnostics; // Necesario para Stopwatch
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using VulnerableApp.Data;
 using VulnerableApp.Models;
-using System.Linq;
-using System.Collections.Generic;
 
 namespace VulnerableApp.Controllers
 {
@@ -20,22 +18,34 @@ namespace VulnerableApp.Controllers
 
         public IActionResult Index(string search)
         {
-            _logger.LogInformation("Entrando a Search.Index");
-            if (string.IsNullOrEmpty(search))
+            var watch = Stopwatch.StartNew();
+            var user = User.Identity?.Name ?? "Anónimo";
+            var ip = HttpContext.Connection.RemoteIpAddress?.ToString();
+
+            _logger.LogInformation("Entrada a Search.Index. Término: {Search}. Usuario: {User}, IP: {IP}", search, user, ip);
+
+            try
             {
-                return View(new List<User>());
+                if (string.IsNullOrEmpty(search))
+                {
+                    _logger.LogInformation("Búsqueda vacía, devolviendo lista vacía.");
+                    return View(new List<User>());
+                }
+
+                var users = _db.Users
+                               .Where(u => u.Username != null && u.Username.Contains(search))
+                               .ToList();
+
+                watch.Stop();
+                _logger.LogInformation("Salida de Search.Index. Resultados: {Count}, Tiempo: {T}ms", users.Count, watch.ElapsedMilliseconds);
+
+                return View(users);
             }
-
-            var users = _db.Users
-                           .Where(u => u.Username != null && u.Username.Contains(search))
-                           .ToList();
-                _logger.LogInformation(
-                "Usuario:{User} IP:{IP} Ruta:{Route}",
-                HttpContext.Session.GetString("User"),
-                HttpContext.Connection.RemoteIpAddress,
-                HttpContext.Request.Path);
-
-            return View(users);
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error crítico en Search.Index al buscar: {Search}", search);
+                throw;
+            }
         }
     }
 }
