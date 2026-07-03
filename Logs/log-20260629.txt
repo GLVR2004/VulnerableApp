@@ -1,0 +1,294 @@
+2026-06-29 19:53:26.702 -06:00 [INF] User profile is available. Using 'C:\Users\Huesos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-29 19:53:26.872 -06:00 [INF] Now listening on: http://localhost:5018
+2026-06-29 19:53:26.878 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-29 19:53:26.879 -06:00 [INF] Hosting environment: Development
+2026-06-29 19:53:26.881 -06:00 [INF] Content root path: C:\Users\Huesos\Documents\VulnerableApp
+2026-06-29 19:53:27.454 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5018/api/events/raw - application/vnd.serilog.clef; charset=utf-8 379
+2026-06-29 19:53:27.490 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-06-29 19:53:27.556 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5018/api/events/raw - 404 0 null 105.8483ms
+2026-06-29 19:53:27.565 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5018/api/events/raw, Response status code: 404
+2026-06-29 19:53:30.433 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5018/api/events/raw - application/vnd.serilog.clef; charset=utf-8 3333
+2026-06-29 19:53:30.440 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5018/api/events/raw - 404 0 null 7.9024ms
+2026-06-29 19:53:30.447 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5018/api/events/raw, Response status code: 404
+2026-06-29 19:53:40.451 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5018/api/events/raw - application/vnd.serilog.clef; charset=utf-8 5207
+2026-06-29 19:53:40.471 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5018/api/events/raw - 404 0 null 19.8519ms
+2026-06-29 19:53:40.475 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5018/api/events/raw, Response status code: 404
+2026-06-29 19:53:52.000 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/ - null null
+2026-06-29 19:53:52.007 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.HomeController.Index (VulnerableApp)'
+2026-06-29 19:53:52.052 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.HomeController (VulnerableApp).
+2026-06-29 19:53:52.081 -06:00 [INF] Executing ViewResult, running view Index.
+2026-06-29 19:53:52.244 -06:00 [INF] Executed ViewResult - view Index executed in 165.0312ms.
+2026-06-29 19:53:52.248 -06:00 [INF] Executed action VulnerableApp.Controllers.HomeController.Index (VulnerableApp) in 190.3551ms
+2026-06-29 19:53:52.250 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.HomeController.Index (VulnerableApp)'
+2026-06-29 19:53:52.255 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/ - 200 null text/html; charset=utf-8 254.7949ms
+2026-06-29 19:53:53.403 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/ - null null
+2026-06-29 19:53:53.410 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.HomeController.Index (VulnerableApp)'
+2026-06-29 19:53:53.412 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.HomeController (VulnerableApp).
+2026-06-29 19:53:53.418 -06:00 [INF] Executing ViewResult, running view Index.
+2026-06-29 19:53:53.424 -06:00 [INF] Executed ViewResult - view Index executed in 6.3085ms.
+2026-06-29 19:53:53.429 -06:00 [INF] Executed action VulnerableApp.Controllers.HomeController.Index (VulnerableApp) in 11.2428ms
+2026-06-29 19:53:53.435 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.HomeController.Index (VulnerableApp)'
+2026-06-29 19:53:53.439 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/ - 200 null text/html; charset=utf-8 36.3239ms
+2026-06-29 19:53:59.192 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/Search/Index - null null
+2026-06-29 19:53:59.197 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-06-29 19:53:59.212 -06:00 [INF] Route matched with {action = "Index", controller = "Search"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller VulnerableApp.Controllers.SearchController (VulnerableApp).
+2026-06-29 19:53:59.535 -06:00 [INF] Entrando a Search.Index
+2026-06-29 19:53:59.540 -06:00 [INF] Executing ViewResult, running view Index.
+2026-06-29 19:53:59.559 -06:00 [INF] Executed ViewResult - view Index executed in 20.2625ms.
+2026-06-29 19:53:59.562 -06:00 [INF] Executed action VulnerableApp.Controllers.SearchController.Index (VulnerableApp) in 343.7409ms
+2026-06-29 19:53:59.564 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-06-29 19:53:59.571 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/Search/Index - 200 null text/html; charset=utf-8 378.9009ms
+2026-06-29 19:54:00.475 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5018/api/events/raw - application/vnd.serilog.clef; charset=utf-8 20978
+2026-06-29 19:54:00.481 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5018/api/events/raw - 404 0 null 5.9001ms
+2026-06-29 19:54:00.486 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5018/api/events/raw, Response status code: 404
+2026-06-29 19:54:01.886 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/Search?search=a - null null
+2026-06-29 19:54:01.890 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-06-29 19:54:01.892 -06:00 [INF] Route matched with {action = "Index", controller = "Search"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller VulnerableApp.Controllers.SearchController (VulnerableApp).
+2026-06-29 19:54:01.919 -06:00 [INF] Entrando a Search.Index
+2026-06-29 19:54:04.027 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/Search?search=a - null null
+2026-06-29 19:54:04.031 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-06-29 19:54:04.033 -06:00 [INF] Route matched with {action = "Index", controller = "Search"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller VulnerableApp.Controllers.SearchController (VulnerableApp).
+2026-06-29 19:54:04.045 -06:00 [INF] Entrando a Search.Index
+2026-06-29 19:54:06.421 -06:00 [ERR] Failed executing DbCommand (86ms) [Parameters=[@search_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Balance], [u].[CreatedAt], [u].[Email], [u].[P_key], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] IS NOT NULL AND [u].[Username] LIKE @search_contains ESCAPE N'\'
+2026-06-29 19:54:06.421 -06:00 [ERR] Failed executing DbCommand (86ms) [Parameters=[@search_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Balance], [u].[CreatedAt], [u].[Email], [u].[P_key], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] IS NOT NULL AND [u].[Username] LIKE @search_contains ESCAPE N'\'
+2026-06-29 19:54:06.492 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'VulnerableApp.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'P_key'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:0e6053cd-27ea-43f0-ba5d-2c09c6f7bdd7
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'P_key'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:0e6053cd-27ea-43f0-ba5d-2c09c6f7bdd7
+Error Number:207,State:1,Class:16
+2026-06-29 19:54:06.492 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'VulnerableApp.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'P_key'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:535a0057-de1b-4295-b9a3-80f77269fbf1
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'P_key'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:535a0057-de1b-4295-b9a3-80f77269fbf1
+Error Number:207,State:1,Class:16
+2026-06-29 19:54:06.543 -06:00 [INF] Executed action VulnerableApp.Controllers.SearchController.Index (VulnerableApp) in 2505.9504ms
+2026-06-29 19:54:06.585 -06:00 [INF] Executed action VulnerableApp.Controllers.SearchController.Index (VulnerableApp) in 4688.407ms
+2026-06-29 19:54:06.588 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-06-29 19:54:06.589 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-06-29 19:54:06.593 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'P_key'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at VulnerableApp.Controllers.SearchController.Index(String search) in C:\Users\Huesos\Documents\VulnerableApp\Controllers\SearchController.cs:line 29
+   at lambda_method18(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:0e6053cd-27ea-43f0-ba5d-2c09c6f7bdd7
+Error Number:207,State:1,Class:16
+2026-06-29 19:54:06.594 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'P_key'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at VulnerableApp.Controllers.SearchController.Index(String search) in C:\Users\Huesos\Documents\VulnerableApp\Controllers\SearchController.cs:line 29
+   at lambda_method18(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:535a0057-de1b-4295-b9a3-80f77269fbf1
+Error Number:207,State:1,Class:16
+2026-06-29 19:54:06.736 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/Search?search=a - 500 null text/html; charset=utf-8 2709.2327ms
+2026-06-29 19:54:06.760 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/Search?search=a - 500 null text/html; charset=utf-8 4874.2604ms
+2026-06-29 19:54:14.753 -06:00 [INF] Application is shutting down...
+2026-06-29 19:57:39.435 -06:00 [INF] User profile is available. Using 'C:\Users\Huesos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-29 19:57:39.637 -06:00 [INF] Now listening on: http://localhost:5018
+2026-06-29 19:57:39.641 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-29 19:57:39.643 -06:00 [INF] Hosting environment: Development
+2026-06-29 19:57:39.644 -06:00 [INF] Content root path: C:\Users\Huesos\Documents\VulnerableApp
+2026-06-29 19:57:39.773 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/Search?search=a - null null
+2026-06-29 19:57:39.790 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-06-29 19:57:39.832 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-06-29 19:57:39.875 -06:00 [INF] Route matched with {action = "Index", controller = "Search"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller VulnerableApp.Controllers.SearchController (VulnerableApp).
+2026-06-29 19:57:40.113 -06:00 [INF] Entrando a Search.Index
+2026-06-29 19:57:40.157 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5018/api/events/raw - application/vnd.serilog.clef; charset=utf-8 379
+2026-06-29 19:57:40.174 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5018/api/events/raw - 404 0 null 17.7873ms
+2026-06-29 19:57:40.181 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5018/api/events/raw, Response status code: 404
+2026-06-29 19:57:42.116 -06:00 [INF] Executed DbCommand (84ms) [Parameters=[@search_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Balance], [u].[CreatedAt], [u].[Email], [u].[P_key], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] IS NOT NULL AND [u].[Username] LIKE @search_contains ESCAPE N'\'
+2026-06-29 19:57:42.237 -06:00 [INF] Usuario:null IP:127.0.0.1 Ruta:/Search
+2026-06-29 19:57:42.255 -06:00 [INF] Executing ViewResult, running view Index.
+2026-06-29 19:57:42.411 -06:00 [INF] Executed ViewResult - view Index executed in 156.4372ms.
+2026-06-29 19:57:42.414 -06:00 [INF] Executed action VulnerableApp.Controllers.SearchController.Index (VulnerableApp) in 2533.5779ms
+2026-06-29 19:57:42.417 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-06-29 19:57:42.439 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/Search?search=a - 200 null text/html; charset=utf-8 2671.7236ms
+2026-06-29 19:57:43.193 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5018/api/events/raw - application/vnd.serilog.clef; charset=utf-8 9758
+2026-06-29 19:57:43.200 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5018/api/events/raw - 404 0 null 7.084ms
+2026-06-29 19:57:43.205 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5018/api/events/raw, Response status code: 404
+2026-06-29 19:57:46.851 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/Search?search=admin - null null
+2026-06-29 19:57:46.855 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-06-29 19:57:46.857 -06:00 [INF] Route matched with {action = "Index", controller = "Search"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller VulnerableApp.Controllers.SearchController (VulnerableApp).
+2026-06-29 19:57:46.864 -06:00 [INF] Entrando a Search.Index
+2026-06-29 19:57:46.912 -06:00 [INF] Executed DbCommand (6ms) [Parameters=[@search_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Balance], [u].[CreatedAt], [u].[Email], [u].[P_key], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] IS NOT NULL AND [u].[Username] LIKE @search_contains ESCAPE N'\'
+2026-06-29 19:57:46.919 -06:00 [INF] Usuario:null IP:127.0.0.1 Ruta:/Search
+2026-06-29 19:57:46.921 -06:00 [INF] Executing ViewResult, running view Index.
+2026-06-29 19:57:46.930 -06:00 [INF] Executed ViewResult - view Index executed in 9.4841ms.
+2026-06-29 19:57:46.932 -06:00 [INF] Executed action VulnerableApp.Controllers.SearchController.Index (VulnerableApp) in 71.4852ms
+2026-06-29 19:57:46.935 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-06-29 19:57:46.941 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/Search?search=admin - 200 null text/html; charset=utf-8 89.7636ms
+2026-06-29 19:57:48.592 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/Search?search= - null null
+2026-06-29 19:57:48.599 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-06-29 19:57:48.601 -06:00 [INF] Route matched with {action = "Index", controller = "Search"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller VulnerableApp.Controllers.SearchController (VulnerableApp).
+2026-06-29 19:57:48.617 -06:00 [INF] Entrando a Search.Index
+2026-06-29 19:57:48.618 -06:00 [INF] Executing ViewResult, running view Index.
+2026-06-29 19:57:48.622 -06:00 [INF] Executed ViewResult - view Index executed in 4.079ms.
+2026-06-29 19:57:48.625 -06:00 [INF] Executed action VulnerableApp.Controllers.SearchController.Index (VulnerableApp) in 19.4589ms
+2026-06-29 19:57:48.629 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.SearchController.Index (VulnerableApp)'
+2026-06-29 19:57:48.632 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/Search?search= - 200 null text/html; charset=utf-8 39.9404ms
+2026-06-29 19:57:53.208 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5018/api/events/raw - application/vnd.serilog.clef; charset=utf-8 23028
+2026-06-29 19:57:53.212 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5018/api/events/raw - 404 0 null 4.058ms
+2026-06-29 19:57:53.216 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5018/api/events/raw, Response status code: 404
