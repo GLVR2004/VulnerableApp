@@ -10,7 +10,6 @@ namespace VulnerableApp.Data
         public AppDbContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
-            // Ajusta la cadena de conexión si es necesario
             var connectionString = "Server=(localdb)\\mssqllocaldb; Database=VulnerableDb; Trusted_Connection=true;";
             optionsBuilder.UseSqlServer(connectionString);
 
