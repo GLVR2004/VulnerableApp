@@ -1,0 +1,54 @@
+2026-07-06 19:52:35.058 -06:00 [INF] User profile is available. Using 'C:\Users\Huesos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-06 19:52:35.171 -06:00 [INF] Now listening on: http://localhost:5018
+2026-07-06 19:52:35.174 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-06 19:52:35.175 -06:00 [INF] Hosting environment: Development
+2026-07-06 19:52:35.176 -06:00 [INF] Content root path: C:\Users\Huesos\Documents\VulnerableApp
+2026-07-06 19:52:39.430 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/Comment - null null
+2026-07-06 19:52:39.449 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-06 19:52:39.487 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-06 19:52:39.522 -06:00 [INF] Route matched with {action = "Index", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-06 19:52:39.532 -06:00 [INF] Cargando lista de comentarios. Total: 0
+2026-07-06 19:52:39.553 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-06 19:52:39.679 -06:00 [INF] Executed ViewResult - view Index executed in 128.8114ms.
+2026-07-06 19:52:39.684 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.Index (VulnerableApp) in 156.3022ms
+2026-07-06 19:52:39.686 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-06 19:52:39.696 -06:00 [INF] HTTP GET /Comment responded 200 in 246.1012 ms
+2026-07-06 19:52:39.705 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/Comment - 200 null text/html; charset=utf-8 278.0119ms
+2026-07-06 19:56:53.051 -06:00 [INF] User profile is available. Using 'C:\Users\Huesos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-06 19:56:53.168 -06:00 [INF] Now listening on: http://localhost:5018
+2026-07-06 19:56:53.171 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-06 19:56:53.172 -06:00 [INF] Hosting environment: Development
+2026-07-06 19:56:53.172 -06:00 [INF] Content root path: C:\Users\Huesos\Documents\VulnerableApp
+2026-07-06 19:56:57.257 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/Comment - null null
+2026-07-06 19:56:57.272 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-06 19:56:57.300 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-06 19:56:57.340 -06:00 [INF] Route matched with {action = "Index", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-06 19:56:57.346 -06:00 [INF] Cargando lista de comentarios. Total: 0
+2026-07-06 19:56:57.359 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-06 19:56:57.498 -06:00 [INF] Executed ViewResult - view Index executed in 141.0699ms.
+2026-07-06 19:56:57.502 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.Index (VulnerableApp) in 158.6742ms
+2026-07-06 19:56:57.503 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-06 19:56:57.509 -06:00 [INF] HTTP GET /Comment responded 200 in 236.8940 ms
+2026-07-06 19:56:57.514 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/Comment - 200 null text/html; charset=utf-8 259.2149ms
+2026-07-06 19:57:06.037 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5018/comment/AddComment - application/x-www-form-urlencoded 18
+2026-07-06 19:57:06.043 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-06 19:57:06.056 -06:00 [INF] Route matched with {action = "AddComment", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddComment(System.String) on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-06 19:57:06.086 -06:00 [INF] Intento de añadir comentario. Usuario: Anónimo, Contenido: aaaa
+
+2026-07-06 19:57:06.088 -06:00 [INF] Comentario añadido exitosamente por Anónimo
+2026-07-06 19:57:06.089 -06:00 [INF] Acción AddComment finalizada. Tiempo: 3ms
+2026-07-06 19:57:06.091 -06:00 [INF] Executing RedirectResult, redirecting to /Comment.
+2026-07-06 19:57:06.092 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp) in 31.7775ms
+2026-07-06 19:57:06.093 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.AddComment (VulnerableApp)'
+2026-07-06 19:57:06.094 -06:00 [INF] HTTP POST /comment/AddComment responded 302 in 52.1344 ms
+2026-07-06 19:57:06.095 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5018/comment/AddComment - 302 0 null 59.2363ms
+2026-07-06 19:57:06.101 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/Comment - null null
+2026-07-06 19:57:06.106 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-06 19:57:06.107 -06:00 [INF] Route matched with {action = "Index", controller = "Comment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.CommentController (VulnerableApp).
+2026-07-06 19:57:06.110 -06:00 [INF] Cargando lista de comentarios. Total: 1
+2026-07-06 19:57:06.111 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-06 19:57:06.115 -06:00 [INF] Executed ViewResult - view Index executed in 4.6596ms.
+2026-07-06 19:57:06.118 -06:00 [INF] Executed action VulnerableApp.Controllers.CommentController.Index (VulnerableApp) in 8.1984ms
+2026-07-06 19:57:06.119 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.CommentController.Index (VulnerableApp)'
+2026-07-06 19:57:06.122 -06:00 [INF] HTTP GET /Comment responded 200 in 15.9889 ms
+2026-07-06 19:57:06.124 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/Comment - 200 null text/html; charset=utf-8 23.4376ms
