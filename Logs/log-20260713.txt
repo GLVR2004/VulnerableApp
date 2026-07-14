@@ -1,0 +1,30 @@
+2026-07-13 19:11:14.885 -06:00 [INF] User profile is available. Using 'C:\Users\Huesos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-13 19:11:14.992 -06:00 [INF] Now listening on: http://localhost:5018
+2026-07-13 19:11:14.994 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-13 19:11:14.995 -06:00 [INF] Hosting environment: Development
+2026-07-13 19:11:14.996 -06:00 [INF] Content root path: C:\Users\Huesos\Documents\VulnerableApp
+2026-07-13 19:11:22.433 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/ - null null
+2026-07-13 19:11:22.445 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-13 19:11:22.468 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.HomeController.Index (VulnerableApp)'
+2026-07-13 19:11:22.492 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VulnerableApp.Controllers.HomeController (VulnerableApp).
+2026-07-13 19:11:22.500 -06:00 [INF] Entrada a Index. Usuario: Anónimo, IP: ::1
+2026-07-13 19:11:22.501 -06:00 [INF] Salida de Index. Tiempo: 4ms
+2026-07-13 19:11:22.512 -06:00 [INF] Executing ViewResult, running view Index.
+2026-07-13 19:11:22.600 -06:00 [INF] Executed ViewResult - view Index executed in 89.0743ms.
+2026-07-13 19:11:22.602 -06:00 [INF] Executed action VulnerableApp.Controllers.HomeController.Index (VulnerableApp) in 107.4311ms
+2026-07-13 19:11:22.603 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.HomeController.Index (VulnerableApp)'
+2026-07-13 19:11:22.608 -06:00 [INF] HTTP GET / responded 200 in 162.0782 ms
+2026-07-13 19:11:22.612 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/ - 200 null text/html; charset=utf-8 180.5025ms
+2026-07-13 19:11:22.645 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-13 19:11:22.645 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/css/site.css?v=bDKCBVXTueFvW3a6y6wQ_EDVQglv3j-eRMEvqEAOUpc - null null
+2026-07-13 19:11:22.645 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - null null
+2026-07-13 19:11:22.656 -06:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Huesos\Documents\VulnerableApp\wwwroot\css\site.css'
+2026-07-13 19:11:22.656 -06:00 [INF] Sending file. Request path: '/VulnerableApp.styles.css'. Physical path: 'C:\Users\Huesos\Documents\VulnerableApp\obj\Debug\net10.0\scopedcss\bundle\VulnerableApp.styles.css'
+2026-07-13 19:11:22.656 -06:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Huesos\Documents\VulnerableApp\wwwroot\js\site.js'
+2026-07-13 19:11:22.657 -06:00 [INF] HTTP GET /css/site.css responded 200 in 7.4025 ms
+2026-07-13 19:11:22.658 -06:00 [INF] HTTP GET /VulnerableApp.styles.css responded 200 in 7.3986 ms
+2026-07-13 19:11:22.660 -06:00 [INF] HTTP GET /js/site.js responded 200 in 12.4252 ms
+2026-07-13 19:11:22.661 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/css/site.css?v=bDKCBVXTueFvW3a6y6wQ_EDVQglv3j-eRMEvqEAOUpc - 200 739 text/css 16.6529ms
+2026-07-13 19:11:22.662 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1109 text/css 17.9813ms
+2026-07-13 19:11:22.664 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 18.7817ms
+2026-07-13 19:14:04.809 -06:00 [INF] Application is shutting down...

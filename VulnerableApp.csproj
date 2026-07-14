@@ -28,7 +28,7 @@
     
     <PackageReference Include="Serilog.Sinks.Seq" Version="9.1.0" />
     
-    <PackageReference Include="SQLitePCLRaw.lib.e_sqlite3" Version="2.1.12" />
+    <PackageReference Include="SQLitePCLRaw.lib.e_sqlite3" Version="3.50.3" />
   </ItemGroup>
 
 </Project>
