@@ -1,19 +1,12 @@
 using VulnerableApp.Data;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using Serilog;
 using VulnerableApp.Middleware;
 
-var builder = WebApplication.CreateBuilder(new WebApplicationOptions
-{
-    Args = args,
-    ContentRootPath = Directory.GetCurrentDirectory() 
-});
+var builder = WebApplication.CreateBuilder(args);
 
+// 1. Configuración de servicios
 builder.Services.AddControllersWithViews();
-
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);
@@ -26,9 +19,11 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Information()
-    .Enrich.FromLogContext()
-    .WriteTo.Console()
-    .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .Enrich.FromLogContext() 
+    .WriteTo.Console(outputTemplate: "[{Timestamp:HH:mm:ss} {Level:u3}] {CorrelationId} {Message:lj}{NewLine}{Exception}")
+    .WriteTo.File("Logs/log-.txt", 
+        rollingInterval: RollingInterval.Day,
+        outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {CorrelationId} {Message:lj}{NewLine}{Exception}")
     .WriteTo.Seq("http://localhost:5341")
     .CreateLogger();
 
@@ -36,11 +31,7 @@ builder.Host.UseSerilog();
 
 var app = builder.Build();
 
-// --- INTEGRACIÓN DE MIDDLEWARES ---
-app.UseMiddleware<ExceptionMiddleware>();
-app.UseMiddleware<CorrelationIdMiddleware>();
-app.UseSerilogRequestLogging(); 
-
+// 3. Middlewares (EL ORDEN ES CLAVE)
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -48,8 +39,12 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles(); 
+app.UseStaticFiles();
 app.UseRouting();
+
+app.UseMiddleware<CorrelationIdMiddleware>(); 
+app.UseSerilogRequestLogging();              
+app.UseMiddleware<ExceptionMiddleware>();     
 
 app.UseSession();
 app.UseAuthorization();

@@ -40,7 +40,7 @@ public IActionResult Login(string username, string P_key)
     if (user != null)
     {
         _logger.LogInformation("Inicio de sesión exitoso para: {Username}. Tiempo: {T}ms", username, watch.ElapsedMilliseconds);
-        HttpContext.Session.SetString("Username", user.Username ?? "Usuario");
+                HttpContext.Session.SetInt32("UserId", user.Id);
         return RedirectToAction("Dashboard");
     }
 
