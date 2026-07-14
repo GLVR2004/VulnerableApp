@@ -34,3 +34,20 @@
 2026-07-13 19:21:29.872 -06:00 [INF] Hosting environment: Development
 2026-07-13 19:21:29.873 -06:00 [INF] Content root path: C:\Users\Huesos\Documents\VulnerableApp
 2026-07-13 19:23:39.781 -06:00 [INF] Application is shutting down...
+2026-07-13 19:24:30.988 -06:00 [INF] User profile is available. Using 'C:\Users\Huesos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-13 19:24:31.068 -06:00 [INF] Now listening on: http://localhost:5018
+2026-07-13 19:24:31.071 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-13 19:24:31.072 -06:00 [INF] Hosting environment: Development
+2026-07-13 19:24:31.073 -06:00 [INF] Content root path: C:\Users\Huesos\Documents\VulnerableApp
+2026-07-13 19:24:31.120 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/Home/Privacy - null null
+2026-07-13 19:24:31.132 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-13 19:24:31.156 -06:00 [INF] Executing endpoint 'VulnerableApp.Controllers.HomeController.Privacy (VulnerableApp)'
+2026-07-13 19:24:31.179 -06:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller VulnerableApp.Controllers.HomeController (VulnerableApp).
+2026-07-13 19:24:31.185 -06:00 [INF] Acceso a Privacy por usuario: Anónimo
+2026-07-13 19:24:31.197 -06:00 [INF] Executing ViewResult, running view Privacy.
+2026-07-13 19:24:31.316 -06:00 [INF] Executed ViewResult - view Privacy executed in 121.1422ms.
+2026-07-13 19:24:31.319 -06:00 [INF] Executed action VulnerableApp.Controllers.HomeController.Privacy (VulnerableApp) in 136.1258ms
+2026-07-13 19:24:31.320 -06:00 [INF] Executed endpoint 'VulnerableApp.Controllers.HomeController.Privacy (VulnerableApp)'
+2026-07-13 19:24:31.324 -06:00 [INF] HTTP GET /Home/Privacy responded 200 in 192.5323 ms
+2026-07-13 19:24:31.329 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/Home/Privacy - 200 null text/html; charset=utf-8 210.5788ms
+2026-07-13 19:24:47.388 -06:00 [INF] Application is shutting down...
