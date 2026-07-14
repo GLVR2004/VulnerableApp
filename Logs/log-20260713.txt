@@ -28,3 +28,9 @@
 2026-07-13 19:11:22.662 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/VulnerableApp.styles.css?v=pGi5QHI7edwYw-oFSAhNLpFbjP5kWh034lowgBP76Dk - 200 1109 text/css 17.9813ms
 2026-07-13 19:11:22.664 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 18.7817ms
 2026-07-13 19:14:04.809 -06:00 [INF] Application is shutting down...
+2026-07-13 19:21:29.765 -06:00 [INF] User profile is available. Using 'C:\Users\Huesos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-13 19:21:29.869 -06:00 [INF] Now listening on: http://localhost:5018
+2026-07-13 19:21:29.871 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-13 19:21:29.872 -06:00 [INF] Hosting environment: Development
+2026-07-13 19:21:29.873 -06:00 [INF] Content root path: C:\Users\Huesos\Documents\VulnerableApp
+2026-07-13 19:23:39.781 -06:00 [INF] Application is shutting down...

@@ -6,7 +6,7 @@ namespace VulnerableApp.Controllers
     public class CommentController : Controller
     {
         private static List<string> _comments = new();
-        private readonly ILogger<CommentController> _logger; // 1. Inyección del logger
+        private readonly ILogger<CommentController> _logger; 
 
         public CommentController(ILogger<CommentController> logger)
         {
