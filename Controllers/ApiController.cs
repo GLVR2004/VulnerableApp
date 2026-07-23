@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using VulnerableApp.Data;
-using System.Diagnostics; // Necesario para Stopwatch
+using System.Diagnostics; 
 
 namespace VulnerableApp.Controllers
 {
@@ -9,7 +9,7 @@ namespace VulnerableApp.Controllers
     public class ApiController : ControllerBase
     {
         private readonly AppDbContext _db;
-        private readonly ILogger<ApiController> _logger; // 1. Inyecta el logger
+        private readonly ILogger<ApiController> _logger;
 
         public ApiController(AppDbContext db, ILogger<ApiController> logger) 
         { 
@@ -24,7 +24,6 @@ namespace VulnerableApp.Controllers
             var userAgent = HttpContext.Connection.RemoteIpAddress?.ToString();
             var currentUser = User.Identity?.Name ?? "Anónimo";
 
-            // 2. Registro de Entrada
             _logger.LogInformation("Entrada a GetUser. ID solicitado: {Id}. Usuario: {User}, IP: {IP}", id, currentUser, userAgent);
 
             try
@@ -33,7 +32,6 @@ namespace VulnerableApp.Controllers
 
                 if (currentUserId == null || currentUserId != id) 
                 {
-                    // 3. Registro de Warning (Seguridad)
                     _logger.LogWarning("Intento de acceso no autorizado al ID: {Id} por usuario: {User}", id, currentUser);
                     return Unauthorized(new { message = "Acceso denegado." });
                 }

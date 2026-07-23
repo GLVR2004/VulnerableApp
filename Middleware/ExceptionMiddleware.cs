@@ -22,7 +22,11 @@ namespace VulnerableApp.Middleware
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Excepción no controlada detectada");
-                context.Response.StatusCode = 500;
+
+                if (!context.Response.HasStarted)
+                {
+                    context.Response.StatusCode = 500;
+                }
             }
         }
     }

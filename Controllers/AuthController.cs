@@ -8,7 +8,7 @@ namespace VulnerableApp.Controllers
     public class AuthController : Controller
     {
         private readonly AppDbContext _db;
-        private readonly ILogger<AuthController> _logger; // 1. Inyecta el Logger
+        private readonly ILogger<AuthController> _logger; 
 
         public AuthController(AppDbContext db, ILogger<AuthController> logger)
         {
@@ -41,6 +41,7 @@ public IActionResult Login(string username, string P_key)
     {
         _logger.LogInformation("Inicio de sesión exitoso para: {Username}. Tiempo: {T}ms", username, watch.ElapsedMilliseconds);
                 HttpContext.Session.SetInt32("UserId", user.Id);
+                HttpContext.Session.SetString("Username", user.Username ?? username);
         return RedirectToAction("Dashboard");
     }
 
