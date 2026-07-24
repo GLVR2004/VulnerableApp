@@ -1,0 +1,5 @@
+2026-07-23 13:17:32.369 -06:00 [INF]  User profile is available. Using 'C:\Users\Huesos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-23 13:17:32.543 -06:00 [INF]  Now listening on: http://localhost:5018
+2026-07-23 13:17:32.547 -06:00 [INF]  Application started. Press Ctrl+C to shut down.
+2026-07-23 13:17:32.549 -06:00 [INF]  Hosting environment: Development
+2026-07-23 13:17:32.550 -06:00 [INF]  Content root path: C:\Users\Huesos\Documents\VulnerableApp
