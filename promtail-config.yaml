@@ -9,15 +9,54 @@ clients:
   - url: http://loki:3100/loki/api/v1/push
 
 scrape_configs:
-  - job_name: vulnerable_app_logs
+  - job_name: vulnerableapp_general
     static_configs:
       - targets:
           - localhost
         labels:
           job: vulnerableapp
-          __path__: /var/log/VulnerableApp/*.txt
+          environment: dev
+          categoria: application
+          __path__: /var/log/VulnerableApp/log-*.txt
     pipeline_stages:
-      - regex:
-          expression: "(?P<categoria>(Security|Audit))"
-      - labels:
-          categoria:
+      - match:
+          selector: '{job="vulnerableapp"} |~ "(?i)inicio de sesion fallido|intento de acceso no autorizado|acceso denegado|unauthorized"'
+          stages:
+            - static_labels:
+                categoria: security
+                module: authentication
+
+      - match:
+          selector: '{job="vulnerableapp"} |~ "(?i)intento de inicio de sesion|AuthController|Auth/Login"'
+          stages:
+            - static_labels:
+                module: authentication
+
+      - match:
+          selector: '{job="vulnerableapp"} |~ "(?i)AddComment|CommentController"'
+          stages:
+            - static_labels:
+                categoria: audit
+                module: orders
+
+      - match:
+          selector: '{job="vulnerableapp"} |~ "(?i)SearchController|Search/Index"'
+          stages:
+            - static_labels:
+                module: search
+
+      - match:
+          selector: '{job="vulnerableapp"} |~ "(?i)ApiController|GetUser"'
+          stages:
+            - static_labels:
+                module: api
+  - job_name: vulnerableapp_security_dedicated
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: vulnerableapp
+          environment: dev
+          categoria: security
+          module: authentication
+          __path__: /var/log/VulnerableApp/security-*.txt

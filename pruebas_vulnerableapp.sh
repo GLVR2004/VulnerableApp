@@ -85,5 +85,4 @@ for i in {1..20}; do
   curl -s -o /dev/null "$BASE_URL/Home/Error"
 done
 
-echo "------------------------------------------------------------------------"
-echo "Pruebas finalizadas. Puedes revisar Seq en http://localhost:5341 para validar tus registros."
+echo "Pruebas finalizadas
